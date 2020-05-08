@@ -9,3 +9,12 @@
   background-image: url('/images/grid-3.png');
 }
 /* your CSS goes here */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
