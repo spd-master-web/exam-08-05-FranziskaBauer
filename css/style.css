@@ -41,3 +41,15 @@ p {
 .white {
   background-color: white;
 }
+
+.pink {
+  background-color: #ed64a4;
+}
+
+.ui-grid-container-two {
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
