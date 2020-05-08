@@ -18,3 +18,26 @@
 body {
   margin:0;
 }
+
+p {
+  margin: 0;
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+}
+
+.ui-grid-container-one {
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.blue {
+  background-color: #6495ed;
+}
+
+.white {
+  background-color: white;
+}
