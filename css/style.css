@@ -1,13 +1,14 @@
 /* disable these when you're done */
-.ui-grid-container-one {
-  background-image: url('/images/grid-1.png');
+
+/*.ui-grid-container-one {
+  background-image: url('/images/grid-1.png'); 
 }
 .ui-grid-container-two {
   background-image: url('/images/grid-2.png');
-}
+} 
 .ui-grid-container-three {
   background-image: url('/images/grid-3.png');
-}
+}*/
 /* your CSS goes here */
 
 
@@ -21,12 +22,11 @@ body {
 
 p {
   margin: 0;
-  background-color: yellow;
   height: 100px;
   width: 100px;
 }
 
-.ui-grid-container-one {
+.ui-grid-container {
   height: 500px;
   width: 500px;
   display: grid;
@@ -46,10 +46,14 @@ p {
   background-color: #ed64a4;
 }
 
-.ui-grid-container-two {
-  height: 500px;
-  width: 500px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+.hello {
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 6em;
+  font-weight: 600;
+  color: #d0166d;
+  letter-spacing: -0.02em;
+  margin-left: 215px;
+  margin-top: 300px;
+  filter: drop-shadow(2px 2px 0px #CECECE);
 }
